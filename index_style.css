@@ -1,3 +1,98 @@
-h1 {
-    font-weight: bold;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+#sect1,
+#sect2,
+#sect7 {
+    background-color: #1f2937;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#sect1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+#sect1item1 {
+    font-size: 24px;
+}
+
+#sect1item2 {}
+
+#righttoplinks {
+    display: flex;
+    gap: 24px;
+}
+
+#sect2 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 100px;
+}
+
+#sect2item1 {
+    text-align: left;
+}
+
+#sect3 {
+    padding: 24px;
+}
+
+#sect4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sect4items p {
+    width: 160px;
+}
+
+#sect5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.sect5items {
+    width: 800px;
+}
+
+#sect5item2 {
+    text-align: right;
+}
+
+#sect6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 24px;
+    background-color: #3882f6;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
